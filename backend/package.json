@@ -1,0 +1,23 @@
+{
+  "name": "fashion-store-backend",
+  "version": "1.0.0",
+  "description": "e-commerce fashion store",
+  "main": "dist/server.js",   
+  "scripts": {
+    "dev": "ts-node src/server.ts",   
+    "build": "tsc",                  
+    "start": "node dist/server.js",   
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.1"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
